@@ -1,0 +1,171 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(8, 35, 69);
+    border: 25px solid black;
+}
+
+.background
+{
+    width: 70%;
+}
+
+.header-block
+{
+    margin-bottom: 5rem;
+}
+
+.header
+{
+    font-family: Metal Mania;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.block-text
+{
+    background-color: rgb(8, 35, 69);
+    position: absolute;
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 13%;
+    right: 5%;
+    color: rgb(190, 197, 206);
+    border: 2px solid white;
+    height: 90%;
+    width: 40%;
+    padding-top: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 7%;
+    text-align: center;
+    box-shadow: 0 0 50px 15px;
+    justify-content: center;
+}
+
+.description
+{
+    margin-top: 0;
+    font-size: 22px;
+    font-family: Iceberg;
+    margin: 0;
+}
+
+ul
+{
+    margin-bottom: 30px;
+}
+
+li
+{
+    font-size: 15px;
+    text-align: left;
+    font-family: Roboto Mono;
+    margin-bottom: 35px;
+    list-style-type: disc;
+}
+
+li:last-child
+{
+    margin-bottom: 0;
+}
+
+.email
+{
+    display: block;
+    text-align: left;
+    margin-bottom: 15px;
+    font-family: Roboto Mono;
+}
+
+.input
+{
+    display: block;
+    background-color: rgb(175, 207, 218);
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.submit
+{
+    color: rgb(190, 197, 206);
+    display: block;
+    width: 97%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(39, 119, 194);
+    font-family: Roboto Mono;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+}
+
+.submit:hover
+{
+    color: black;
+    background-color: white;
+    transition: background-color 0.15s;
+}
+
+.submit:active
+{
+    background-color: rgb(39, 119, 194);
+    opacity: 0.5;
+}
+
+.invalid-input {
+    display: block;
+    background-color: rgb(231, 139, 139);
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border: none;
+}
+
+.email{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.email .error-message{
+    color: rgb(215, 100, 100);
+}
+
+.error-input{
+    background-color: rgb(221, 97, 97);
+}
+
+.error-input::placeholder{
+    color: white;
+}
+
+#true{
+    display: none;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Iceberg;
+    margin: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
